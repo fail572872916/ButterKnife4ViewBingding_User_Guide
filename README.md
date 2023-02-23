@@ -10,17 +10,17 @@
 
 2.寻找安装地址
 
-![step2](.\step2.png)
+![](.\step2.png)
 
 ![step1](.\step3.png)
 
 点击左侧复制，就将地址复制到剪贴板了
 
-![step3](.\step4.png)
+![](.\step4.png)
 
 3.更换地址
 
-![step4](.\step1_1.png)
+![](.\step1_1.png)
 
 
 
