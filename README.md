@@ -10,43 +10,43 @@
 
 2.寻找安装地址
 
-![step1](.\step2.png)
+![step2](.\step2.png)
 
 ![step1](.\step3.png)
 
 点击左侧复制，就将地址复制到剪贴板了
 
-![step1](.\step4.png)
+![step3](.\step4.png)
 
 3.更换地址
 
-![step1](.\step1_1.png)
+![step4](.\step1_1.png)
 
 
 
 4.点击右上交同步图标
 
-![step1](.\step5.png)
+![](.\step5.png)
 
 等待同步完成
 
 5.生成jar包
 
-![step1](.\step6.png)
+![](.\step6.png)
 
 6.找到jar包位置
 
-![step1](.\step7.png)
+![](.\step7.png)
 
 7.打开Android Studio 安装插件
 
 
 
-![step1](.\step9.png)
+![](.\step9.png)
 
 8.开始转换
 
-![step1](.\step10.png)
+![](.\step10.png)
 
 我把jar包放到目录里了，需要的话可以下载项目
 
