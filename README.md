@@ -2,13 +2,13 @@
 
 照着图片走就行
 
-1.下载github项目打开
+#### 1.下载github项目打开
 
 
 
 <img src=".\step1.png" alt="step1" style="zoom: 200%;" />
 
-2.寻找安装地址
+#### 2.寻找安装地址
 
 <img src=".\step2.png" style="zoom:150%;" />
 
@@ -18,33 +18,51 @@
 
 <img src=".\step4.png" style="zoom:150%;" />
 
-3.更换地址
+#### 3.更换地址
 
 <img src=".\step1_1.png" style="zoom:150%;" />
 
 
 
-4.点击右上交同步图标
+#### 4.点击右上交同步图标
 
 <img src=".\step5.png" style="zoom:150%;" />
 
 等待同步完成
 
-5.生成jar包
+#### 5.生成jar包
 
 <img src=".\step6.png" style="zoom:150%;" />
 
-6.找到jar包位置
+#### 6.找到jar包位置
 
 <img src=".\step7.png" style="zoom:150%;" />
 
-7.打开Android Studio 安装插件
+#### 7.打开Android Studio 安装插件
 
 
 
 <img src=".\step9.png" style="zoom:150%;" />
 
-8.开始转换
+#### 8.在App gradle 增加  viewbinding
+
+
+
+<img src=".\step10.png" style="zoom:150%;" />
+
+
+
+#### 9.**生成 ViewBinding 相关的类**
+
+
+
+在项目目录下执行 `./gradlew dataBindingGenBaseClassesDebug`   就会生成 ViewBinding 相关的类与映射文件
+
+
+
+#### 10.进行转换操作
+
+
 
 <img src=".\step10.png" style="zoom:150%;" />
 
