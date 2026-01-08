@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.platform.jewel.ui" revision="IU-253.29346.138"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="intellij.platform.jewel.ui" ext="jar" conf="default" url="lib/modules"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.platform.jewel.foundation" rev="IU-253.29346.138"/>
+    <dependency org="bundledModule" name="intellij.libraries.compose.foundation.desktop" rev="IU-253.29346.138"/>
+    <dependency org="bundledModule" name="intellij.libraries.compose.runtime.desktop" rev="IU-253.29346.138"/>
+  </dependencies>
+</ivy-module>

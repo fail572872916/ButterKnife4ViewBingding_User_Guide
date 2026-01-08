@@ -1,0 +1,19 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="com.jetbrains.performancePlugin" revision="IU-253.29346.138"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="assertj-swing" ext="jar" conf="default" url="plugins/performanceTesting/lib"/>
+    <artifact name="assertj" ext="jar" conf="default" url="plugins/performanceTesting/lib"/>
+    <artifact name="github.oshi.core" ext="jar" conf="default" url="plugins/performanceTesting/lib"/>
+    <artifact name="performanceTesting" ext="jar" conf="default" url="plugins/performanceTesting/lib"/>
+    <artifact name="intellij.performanceTesting.frontend" ext="jar" conf="default" url="plugins/performanceTesting/lib/modules"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.platform.compose" rev="IU-253.29346.138"/>
+    <dependency org="bundledModule" name="intellij.performanceTesting.remoteDriver" rev="IU-253.29346.138"/>
+    <dependency org="bundledModule" name="intellij.platform.vcs.impl" rev="IU-253.29346.138"/>
+    <dependency org="bundledModule" name="intellij.platform.vcs.log.impl" rev="IU-253.29346.138"/>
+  </dependencies>
+</ivy-module>

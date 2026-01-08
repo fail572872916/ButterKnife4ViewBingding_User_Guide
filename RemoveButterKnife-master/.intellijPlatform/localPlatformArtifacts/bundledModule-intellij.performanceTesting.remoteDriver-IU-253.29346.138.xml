@@ -1,0 +1,8 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.performanceTesting.remoteDriver" revision="IU-253.29346.138"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications/>
+  <dependencies/>
+</ivy-module>

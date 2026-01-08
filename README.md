@@ -68,5 +68,17 @@
 
 我把jar包放到目录里了，需要的话可以下载项目
 
-**以上是本人的使用记录，虽然移除了黄油刀，但是没有生成viewbingding,后续再研究**
+
+
+#### 生成ViewBinding相关的类
+
+
+
+在项目目录下执行`./gradlew dataBindingGenBaseClassesDebug`生成ViewBinding相关的类与映射文件
+
+#### 执行代码转换
+
+
+
+右键需要转换的文件目录（支持单个文件操作或多级目录操作），点击RemoveButterKnife开始转换
 
